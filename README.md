@@ -4,7 +4,7 @@ A web spider for crawling accommodation rental information in [Douban Group](htt
   
 ## System Requirements:
 
-- Python 2.7
+- Python 3
 - pip
 - (Optional) [virtualenv](https://virtualenv.pypa.io/en/latest/)  
 
@@ -72,7 +72,7 @@ In all, after setting the groups here, and setting keywords in `config.ini`, you
   
 ## System Requirements:
 
-- Python 2.7  
+- Python 3以上 
 - pip
 - (Optional) [virtualenv](https://virtualenv.pypa.io/en/latest/)  
 
