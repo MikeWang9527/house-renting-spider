@@ -32,7 +32,7 @@ class Utils(object):
         elif '-' in timeStr:
             return datetime.datetime.strptime(timeStr, "%Y-%m-%d")
         elif ':' in timeStr:
-            date_today = datetime.date.today();
+            date_today = datetime.date.today()
             date = datetime.datetime.strptime(timeStr, "%H:%M:%S")
             # date.replace(year, month, day)：生成一个新的日期对象
             return date.replace(year=date_today.year, month=date_today.month, day=date_today.day)
